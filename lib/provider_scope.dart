@@ -1,5 +1,6 @@
+import 'package:bot_chat/src/chat/controller/chat_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:palm_app/src/chat/controller/chat_controller.dart';
+
 import 'package:provider/provider.dart';
 
 class ProviderScope extends StatelessWidget {

@@ -1,11 +1,12 @@
 import 'dart:async';
 
+import 'package:bot_chat/src/chat/model/data/chat_model.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:palm_app/src/chat/model/data/chat_model.dart';
+
 import 'package:provider/provider.dart';
 
 import '../../controller/chat_controller.dart';
@@ -43,7 +44,7 @@ class _ChatPageState extends State<ChatPage> {
           surfaceTintColor: Colors.white,
           centerTitle: true,
           title: const Text(
-            "Palm Bot Chat",
+            "Bot Chat",
             style: TextStyle(
                 fontFamily: 'Munitosans',
                 fontWeight: FontWeight.w700,
@@ -156,7 +157,9 @@ class _ChatPageState extends State<ChatPage> {
                                             const SizedBox(
                                               width: 40,
                                             ),
-                                            CopyText(text: chat.prompt,)
+                                            CopyText(
+                                              text: chat.prompt,
+                                            )
                                           ],
                                         )
                                       ],
@@ -261,8 +264,7 @@ class CopyText extends StatelessWidget {
       },
       child: Row(
         children: [
-          SvgPicture.asset(
-              "assets/icons/ic_copy.svg"),
+          SvgPicture.asset("assets/icons/ic_copy.svg"),
           const SizedBox(
             width: 12,
           ),

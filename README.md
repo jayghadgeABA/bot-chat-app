@@ -1,6 +1,6 @@
-# Palm Bot Chat
+# Bot Chat
 
-An AI chat bot 🤖 Flutter application with data caching using Google's PaLM API (Beta).
+An AI chat bot 🤖 Flutter application with data caching using Google's API (Beta).
 
 ## Screenshots
 
@@ -26,7 +26,7 @@ Before testing the application, make sure you obtain an API key by following the
 
 1. Clone this repository.
 ```shell
-git clone https://github.com/dongorias/palm-bot-chat-app.git
+git clone https://github.com/jayghadgeABA/bot-chat-app
 flutter clean
 flutter pub get
 flutter run

@@ -1,4 +1,4 @@
-package com.example.palm_app
+package com.example.bot_chat
 
 import io.flutter.embedding.android.FlutterActivity
 
