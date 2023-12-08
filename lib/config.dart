@@ -1,4 +1,4 @@
 class Config {
   static const String baseUrl = 'https://generativelanguage.googleapis.com/';
-  static const String palmApiKey  = 'API_KEY';
+  static const String palmApiKey = 'AIzaSyAs2wHhR6BbFwViqrWmGmbyTFzteWIW5IU';
 }
